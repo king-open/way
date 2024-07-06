@@ -7,6 +7,8 @@
 ## install
 
 ```
+npm i
+
 npx parcel src/index.html --no-cache
 ```
 
