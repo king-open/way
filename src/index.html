@@ -8,10 +8,17 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body  class="uno">
-  <div id="dropzone" class="dropzone">
-    Drag and drop files here or click to upload
+  <div class="container">
+    <div id="dropzone" class="dropzone">
+      Drag and drop files here or click to upload
+    </div>
+    <div id="preview" class="preview"></div>
   </div>
-  <div id="preview" class="preview"></div>
+  
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
   <script src="./main.js"></script>
 </body>
 </html>
