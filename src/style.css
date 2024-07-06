@@ -1,0 +1,37 @@
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.dropzone.dragover {
+  border-color: #333;
+}
+
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview-item {
+  position: relative;
+  margin: 10px;
+}
+
+.preview img, .preview video {
+  max-width: 200px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 0, 0, 0.7);
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
